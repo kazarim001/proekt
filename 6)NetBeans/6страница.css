@@ -1,0 +1,54 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6; /* Улучшает читаемость */
+}
+
+header {
+    background-color: #83f3648e;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+section.content {
+    display: flex; /* Используем flexbox для адаптивного макета */
+    flex-direction: column; /* Элементы выстраиваются вертикально */
+    align-items: center; /* Выравнивание по центру по горизонтали */
+}
+
+img {
+    max-width: 100%; /* Картинка не будет шире, чем контейнер */
+    height: auto; /* Сохраняется пропорциональность картинки */
+    margin-bottom: 20px; /* Отступ снизу от картинки */
+}
+
+footer {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+}
+
+.scroll {
+    right: 45px;
+    position: fixed;
+    bottom: 45px;;
+    background-color: #aaaaaa;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    opacity: 0.8;
+}
+
+.scroll_up {
+    color: #fff;
+    display: block;
+    padding-top: 3px;
+    font-size: 30px;
+    text-decoration: none;
+    }
